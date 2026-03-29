@@ -1,0 +1,47 @@
+{
+  "en": "en",
+  "es": "es",
+  "it": "it",
+  "chs": "chs",
+  "welcome": {
+    "tagline": "I explore, build, and connect — every project starts from genuine curiosity.",
+    "skills_title": "Technologies"
+  },
+  "about": {
+    "card_title": "Frontend Developer",
+    "description": "A Frontend Dev with the soul of an explorer: I travel, observe, ask questions, and turn it all into clean, human-centered UI. I like understanding what drives people — and building experiences around that. I work at the intersection of aesthetics, logic, and humanity. My curiosity always starts with people: I love observing them in social contexts, learning unusual things or diving deep into complex topics. Urban photography is one of the ways I do this best — freezing a moment, a shadow, a person who doesn't know they're being watched. I'm the one who asks questions (tactfully) because I genuinely want to understand what moves someone, what excites them, what makes them stay. And once I understand it, it comes naturally to translate that into experience choices: a simpler flow, more human microcopy, a detail that makes you smile."
+  },
+  "projects": {
+    "view_code": "Code",
+    "items": {
+      "easy_go": {
+        "description": "A multi-step wizard for collecting travel preferences. Each step features an animated dinosaur that walks and jumps over obstacles — because planning a trip should be as fun as the trip itself."
+      },
+      "linoir": {
+        "description": "An Angular application with PWA architecture and containerized deployment via Docker. A project that pushed me beyond the UI, into infrastructure and the DevOps world."
+      },
+      "countdown_pet": {
+        "description": "An interactive virtual pet that lives alongside your timer. Pet it, feed it, watch it react — because even the time that counts deserves a little company."
+      },
+      "qr_anniversary": {
+        "description": "A small act of love in code: generates personalized QR codes to gift on special occasions. Because the most beautiful creativity is the kind that connects people."
+      }
+    }
+  },
+  "contact": {
+    "tagline": "Have an idea, a project, or just want to chat? Write to me.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "location": "Padova, Italy"
+  },
+  "navbar": {
+    "welcome": "Welcome",
+    "about_me": "About me",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

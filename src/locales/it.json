@@ -1,0 +1,47 @@
+{
+  "en": "en",
+  "es": "es",
+  "it": "it",
+  "chs": "chs",
+  "welcome": {
+    "tagline": "Esploro, costruisco, connetto — ogni progetto nasce da una curiosità vera.",
+    "skills_title": "Tecnologie"
+  },
+  "about": {
+    "card_title": "Frontend Developer",
+    "description": "Frontend Dev con anima da esploratrice: viaggio, osservo, faccio domande e poi trasformo tutto in UI pulite e gentili. Mi piace capire cosa accende le persone — e costruirci attorno esperienze che funzionano. Lavoro dove si incontrano estetica, logica e umanità. La mia curiosità parte sempre dalle persone: amo osservarle nei contesti sociali, imparare dagli altri cose curiose o argomenti profondi. La fotografia urbana è uno dei modi in cui lo faccio meglio — fermare un momento, un'ombra, una persona che non sa di essere guardata. Sono quella che fa domande (con tatto) perché vuole capire davvero cosa muove qualcuno, cosa lo entusiasma, cosa lo fa restare. E quando lo capisco, mi viene naturale trasformarlo in scelte di esperienza: un flusso più semplice, un microcopy più umano, un dettaglio che fa sorridere."
+  },
+  "projects": {
+    "view_code": "Codice",
+    "items": {
+      "easy_go": {
+        "description": "Un wizard multi-step per raccogliere preferenze di viaggio. Ogni passo è accompagnato da un dinosauro animato che cammina e salta gli ostacoli — perché pianificare un viaggio dovrebbe essere divertente quanto il viaggio stesso."
+      },
+      "linoir": {
+        "description": "Un'applicazione Angular con architettura PWA e deployment containerizzato via Docker. Un progetto che mi ha spinto oltre la UI, verso l'infrastruttura e il mondo DevOps."
+      },
+      "countdown_pet": {
+        "description": "Un virtual pet interattivo che vive accanto al tuo timer. Accarezzalo, nutrilo, guardalo reagire — perché anche il tempo che conta merita un po' di compagnia."
+      },
+      "qr_anniversary": {
+        "description": "Un piccolo atto d'amore in codice: genera QR personalizzati da regalare in occasioni speciali. Perché la creatività più bella è quella che connette le persone."
+      }
+    }
+  },
+  "contact": {
+    "tagline": "Hai un'idea, un progetto o vuoi solo fare due chiacchiere? Scrivimi.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "send": "Invia"
+    },
+    "location": "Padova, Italia"
+  },
+  "navbar": {
+    "welcome": "Benvenuti",
+    "about_me": "Su di me",
+    "projects": "Progetti",
+    "contact": "Contatti"
+  }
+}
