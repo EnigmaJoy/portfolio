@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8a855"/>
+      <stop offset="100%" stop-color="#c47a30"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0e2e"/>
+      <stop offset="100%" stop-color="#110a1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="13" fill="url(#bg)"/>
+
+  <!-- Subtle inner border -->
+  <rect x="1" y="1" width="62" height="62" rx="12" fill="none" stroke="#c47a30" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- G letter -->
+  <text
+    x="11"
+    y="50"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="44"
+    font-weight="700"
+    fill="url(#gold)"
+    letter-spacing="-1"
+  >G</text>
+
+  <!-- Superscript 2 -->
+  <text
+    x="45"
+    y="22"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="19"
+    font-weight="700"
+    fill="url(#gold)"
+  >2</text>
+</svg>
