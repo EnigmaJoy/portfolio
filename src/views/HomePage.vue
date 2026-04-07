@@ -86,7 +86,7 @@
   font-size: clamp(0.9rem, 2vw, 1.8rem);
   font-style: italic;
   position: relative;
-  top: -3.6em;
+  top: -2.6em;
   color: #e8a855;
   margin-left: 8px;
 }
