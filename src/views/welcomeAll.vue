@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="v-row justify-start align-center" style="margin-top: 20px;">
+    <div class="v-row justify-start align-center">
       <div class="v-col header h1">
         {{ $t('navbar.welcome') }}
       </div>
@@ -33,6 +33,7 @@
   justify-content: end;
   align-items: start;
   color: #9b80d4;
+  margin-top: 2.5rem;
 }
 
 .tagline {

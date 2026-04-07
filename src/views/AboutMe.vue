@@ -27,6 +27,7 @@
   align-items: end;
   color: #5a9ec4;
   margin-right: 20px;
+  margin-top: 2.5rem;
 }
 
 :deep(.card) {

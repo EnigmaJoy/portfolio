@@ -68,6 +68,7 @@ const projects = [
   flex-direction: column;
   align-items: start;
   color: #c45a78;
+  margin-top: 2.5rem;
 }
 
 .projects-grid {

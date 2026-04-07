@@ -88,6 +88,7 @@ const sendEmail = () => {
   flex-direction: column;
   align-items: center;
   color: #c4a055;
+  margin-top: 2.5rem;
 }
 
 .tagline {
