@@ -1,6 +1,4 @@
 <script setup>
-import MainButton from "@/components/ui/mainButton.vue";
-
 const projects = [
   {
     key: 'easy_go',
@@ -31,9 +29,6 @@ const projects = [
 
 <template>
   <div class="container">
-    <div class="v-row justify-end align-center" style="margin-top: 20px; margin-right: 20px;">
-      <MainButton color="#c45a78"/>
-    </div>
     <div class="container header h1">
       {{ $t('navbar.projects') }}
     </div>
