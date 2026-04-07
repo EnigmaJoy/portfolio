@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <div class="v-row justify-end align-center" style="margin-top: 20px; margin-right: 20px;">
-      <MainButton color="#9b80d4"/>
-    </div>
     <div class="v-row justify-start align-center" style="margin-top: 20px;">
       <div class="v-col header h1">
         {{ $t('navbar.welcome') }}
@@ -146,8 +143,6 @@
 </style>
 
 <script setup>
-import MainButton from "@/components/ui/mainButton.vue";
-
 const skills = [
   { name: 'Vue.js',      icon: 'mdi-vuejs',                color: '#42b883' },
   { name: 'Angular',     icon: 'mdi-angular',              color: '#dd1b16' },
