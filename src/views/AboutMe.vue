@@ -1,8 +1,5 @@
 <template>
  <div class="container">
-   <div class="v-row justify-end align-center" style="margin-top: 20px; margin-right: 20px;">
-     <MainButton color="#5a9ec4"/>
-   </div>
    <div class="v-row justify-end v-col-5 header h1">
      {{ $t('navbar.about_me') }}
    </div>
@@ -62,7 +59,6 @@
 </style>
 
 <script setup>
-import MainButton from "@/components/ui/mainButton.vue";
 import BaseCard from "@/components/ui/baseCard.vue";
 import PhotoCarousel from "@/components/ui/PhotoCarousel.vue";
 </script>
