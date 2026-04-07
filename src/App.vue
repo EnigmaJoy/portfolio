@@ -7,7 +7,7 @@
     <ContactMe id="contact" class="page-bg-6"/>
     <Transition name="fade">
         <MainButton
-            v-show="activeSection !== 'main'"
+            v-if="activeSection !== 'main'"
             :color="currentColor"
             style="position: fixed; top: 20px; right: 20px; z-index: 1000;"
         />
