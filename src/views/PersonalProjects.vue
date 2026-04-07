@@ -18,11 +18,17 @@ const projects = [
     github: 'https://github.com/EnigmaJoy/countdown-pet',
     tech: ['Vue', 'Nuxt', 'TypeScript', 'Anime.js'],
   },
+  // {
+  //   key: 'qr_anniversary',
+  //   title: 'QR Anniversary',
+  //   github: 'https://github.com/EnigmaJoy/qr_anniversary',
+  //   tech: ['HTML', 'CSS'],
+  // },
   {
-    key: 'qr_anniversary',
-    title: 'QR Anniversary',
-    github: 'https://github.com/EnigmaJoy/qr_anniversary',
-    tech: ['HTML', 'CSS'],
+    key: 'deskmate',
+    title: 'Deskmate',
+    github: 'https://github.com/EnigmaJoy/deskmate',
+    tech: ['Vite', 'React', 'Tailwind CSS', 'TypeScript', 'HTML'],
   },
 ]
 </script>
