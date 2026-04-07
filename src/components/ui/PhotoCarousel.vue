@@ -52,11 +52,23 @@ import { ref, computed, onMounted, onBeforeUnmount, defineProps } from 'vue'
 const props = defineProps({
   images: {
     type: Array,
-    default: () =>
-      Array.from({ length: 8 }, (_, i) => ({
-        src: `https://picsum.photos/seed/carousel${i + 1}/400/300`,
-        alt: `Photo ${i + 1}`,
-      })),
+    default: () => [
+      { src: '/portfolio/photographies/1.JPG', alt: 'Photo 1' },
+      { src: '/portfolio/photographies/2.JPG', alt: 'Photo 2' },
+      { src: '/portfolio/photographies/3.JPG', alt: 'Photo 3' },
+      { src: '/portfolio/photographies/4.JPG', alt: 'Photo 4' },
+      { src: '/portfolio/photographies/5.JPG', alt: 'Photo 5' },
+      { src: '/portfolio/photographies/6.JPG', alt: 'Photo 6' },
+      { src: '/portfolio/photographies/7.JPG', alt: 'Photo 7' },
+      { src: '/portfolio/photographies/8.JPG', alt: 'Photo 8' },
+      { src: '/portfolio/photographies/9.JPG', alt: 'Photo 9' },
+      { src: '/portfolio/photographies/10.JPG', alt: 'Photo 10' },
+      { src: '/portfolio/photographies/11.jpg', alt: 'Photo 11' },
+      { src: '/portfolio/photographies/12.JPG', alt: 'Photo 12' },
+      { src: '/portfolio/photographies/13.JPG', alt: 'Photo 13' },
+      { src: '/portfolio/photographies/14.JPG', alt: 'Photo 14' },
+      { src: '/portfolio/photographies/15.JPG', alt: 'Photo 15' },
+    ],
   },
   scrollSpeed: { type: Number, default: 0.5 },
   watermarkText: { type: String, default: '© Joselyn Grace Gordillo Lopez' },
