@@ -66,8 +66,6 @@ const props = defineProps({
       { src: '/portfolio/photographies/11.jpg', alt: 'Photo 11' },
       { src: '/portfolio/photographies/12.JPG', alt: 'Photo 12' },
       { src: '/portfolio/photographies/13.JPG', alt: 'Photo 13' },
-      { src: '/portfolio/photographies/14.JPG', alt: 'Photo 14' },
-      { src: '/portfolio/photographies/15.JPG', alt: 'Photo 15' },
     ],
   },
   scrollSpeed: { type: Number, default: 0.5 },
