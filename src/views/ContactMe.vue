@@ -24,7 +24,7 @@ const sendEmail = () => {
 
     <div class="contact-layout">
       <!-- Form -->
-      <div class="contact-form-wrapper">
+      <div class="contact-form-wrapper" style="max-width: 560px; width: 100%; margin: 0 auto;">
         <form class="contact-form" @submit.prevent="sendEmail">
           <div class="field-group">
             <label class="field-label">{{ $t('contact.form.name') }}</label>
@@ -86,7 +86,7 @@ const sendEmail = () => {
 <style scoped>
 .h1 {
   flex-direction: column;
-  align-items: end;
+  align-items: center;
   color: #c4a055;
 }
 
@@ -101,18 +101,22 @@ const sendEmail = () => {
 }
 
 .contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
   padding-bottom: 3rem;
-  align-items: start;
 }
 
-@media (max-width: 720px) {
-  .contact-layout {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
+.social-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 2.5rem;
+  padding: 0.5rem 0;
+  max-width: 560px;
+  width: 100%;
 }
 
 /* ── Mobile ≤ 480px ── */
@@ -214,12 +218,6 @@ const sendEmail = () => {
   box-shadow: 0 4px 20px rgba(196, 160, 85, 0.2);
 }
 
-.social-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  padding: 1rem 0;
-}
 
 .social-link {
   display: flex;
