@@ -15,7 +15,7 @@
 
       <p class="formula-fullname">Joselyn Grace<br>Gordillo Lopez</p>
 
-      <p class="formula-tagline">the integral of every gaze, evaluated from curiosity to craft</p>
+      <p class="formula-tagline">from curiosity and beyond</p>
     </div>
   </div>
 </template>
@@ -61,7 +61,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  gap: clamp(0.6rem, 2vw, 1.4rem);
+  //gap: clamp(0.6rem, 2vw, 1.4rem);
   flex-wrap: wrap;
   justify-content: center;
   min-height: 100px;
@@ -86,8 +86,9 @@
   font-size: clamp(0.9rem, 2vw, 1.8rem);
   font-style: italic;
   position: relative;
-  top: -0.6em;
+  top: -2.6em;
   color: #e8a855;
+  margin-left: 8px;
 }
 
 .formula-dx {
