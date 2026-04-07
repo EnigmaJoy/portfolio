@@ -1,5 +1,4 @@
 <script setup>
-import MainButton from "@/components/ui/mainButton.vue";
 import { ref } from "vue";
 
 const form = ref({
@@ -17,9 +16,6 @@ const sendEmail = () => {
 
 <template>
   <div class="container">
-    <div class="v-row justify-end align-center" style="margin-top: 20px; margin-right: 20px;">
-      <MainButton color="#c4a055"/>
-    </div>
     <div class="container header h1">
       {{ $t('navbar.contact') }}
     </div>
