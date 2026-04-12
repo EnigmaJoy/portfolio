@@ -18,8 +18,8 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import HomePage from "@/views/HomePage.vue"
 import AboutMe from "@/views/AboutMe.vue"
 import ContactMe from "@/views/ContactMe.vue"
-import PersonalProjects from "@/views/personalProjects.vue"
-import WelcomeAll from "@/views/welcomeAll.vue"
+import PersonalProjects from "@/views/PersonalProjects.vue"
+import WelcomeAll from "@/views/WelcomeAll.vue"
 import CursorTrail from "@/components/ui/CursorTrail.vue"
 import MainButton from "@/components/ui/mainButton.vue"
 

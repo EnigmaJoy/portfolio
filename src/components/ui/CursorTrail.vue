@@ -15,7 +15,7 @@
 </style>
 
 <script setup>
-import { ref, onMounted, onUnmounted, watch, defineProps } from 'vue'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
 
 const props = defineProps({
   section: { type: String, default: 'main' }
@@ -245,6 +245,14 @@ function draw() {
   animId = requestAnimationFrame(draw)
 }
 
+function onVisibilityChange() {
+  if (document.hidden) {
+    if (animId) cancelAnimationFrame(animId)
+  } else {
+    animId = requestAnimationFrame(draw)
+  }
+}
+
 function resize() {
   if (!canvas.value) return
   canvas.value.width = window.innerWidth
@@ -267,6 +275,7 @@ onMounted(() => {
   window.addEventListener('touchstart', onTouchStart, { passive: true })
   window.addEventListener('touchmove', onTouchMove, { passive: true })
   window.addEventListener('resize', resize)
+  document.addEventListener('visibilitychange', onVisibilityChange)
   animId = requestAnimationFrame(draw)
 })
 
@@ -275,6 +284,7 @@ onUnmounted(() => {
   window.removeEventListener('touchstart', onTouchStart)
   window.removeEventListener('touchmove', onTouchMove)
   window.removeEventListener('resize', resize)
+  document.removeEventListener('visibilitychange', onVisibilityChange)
   if (animId) cancelAnimationFrame(animId)
 })
 </script>

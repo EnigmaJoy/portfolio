@@ -27,8 +27,9 @@ const sendEmail = () => {
       <div class="contact-form-wrapper" style="max-width: 560px; width: 100%; margin: 0 auto;">
         <form class="contact-form" @submit.prevent="sendEmail">
           <div class="field-group">
-            <label class="field-label">{{ $t('contact.form.name') }}</label>
+            <label for="contact-name" class="field-label">{{ $t('contact.form.name') }}</label>
             <input
+              id="contact-name"
               v-model="form.name"
               type="text"
               class="field-input"
@@ -36,8 +37,9 @@ const sendEmail = () => {
             />
           </div>
           <div class="field-group">
-            <label class="field-label">{{ $t('contact.form.email') }}</label>
+            <label for="contact-email" class="field-label">{{ $t('contact.form.email') }}</label>
             <input
+              id="contact-email"
               v-model="form.email"
               type="email"
               class="field-input"
@@ -45,8 +47,9 @@ const sendEmail = () => {
             />
           </div>
           <div class="field-group">
-            <label class="field-label">{{ $t('contact.form.message') }}</label>
+            <label for="contact-message" class="field-label">{{ $t('contact.form.message') }}</label>
             <textarea
+              id="contact-message"
               v-model="form.message"
               class="field-input field-textarea"
               rows="5"

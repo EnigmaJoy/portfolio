@@ -1,16 +1,10 @@
-<!-- eslint-disable-next-line -->
-
 <template>
   <div class="hello container page-bg-" id="main">
-    <NavBar id="main" class="navbar"/>
+    <NavBar id="main_1" class="navbar"/>
     <div class="logo-wrap">
-<!--      <span class="ghost-integral" aria-hidden="true">∫</span>-->
 
       <div class="formula-row">
         <span class="formula-initials">JG</span><span class="formula-sup">2</span><span class="formula-initials">L</span>
-<!--        <span class="formula-dx">dx</span>
-        <span class="formula-eq">=</span>-->
-<!--        <span class="formula-name">Joselyn Grace<br>Gordillo Lopez</span>-->
       </div>
 
       <p class="formula-fullname">Joselyn Grace<br>Gordillo Lopez</p>
@@ -38,23 +32,6 @@
   height: 80vh;
   gap: 1.8rem;
   overflow: visible;
-}
-
-/* Ghost integral behind the formula */
-.ghost-integral {
-  position: absolute;
-  left: clamp(2%, 8%, 12%);
-  top: 50%;
-  transform: translateY(-58%);
-  font-family: 'Prata', serif;
-  font-size: clamp(12rem, 22vw, 20rem);
-  line-height: 1.2;
-  background: linear-gradient(135deg, rgba(232, 168, 85, 0.1), rgba(196, 122, 48, 0.05));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  pointer-events: none;
-  user-select: none;
 }
 
 .formula-row {
@@ -108,19 +85,6 @@
   color: #a89b8c;
   opacity: 0.6;
   line-height: 1;
-}
-
-.formula-name {
-  font-family: 'Prata', serif;
-  font-size: clamp(0.85rem, 2.2vw, 1.5rem);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  text-align: left;
-  line-height: 1.5;
-  background: linear-gradient(135deg, #f0e6d8 0%, #c8b898 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 /* Tagline */
@@ -191,9 +155,6 @@
 
 /* ── Tablet 481–768px ── */
 @media (min-width: 481px) and (max-width: 768px) {
-  .ghost-integral {
-    font-size: clamp(10rem, 18vw, 14rem);
-  }
 
   .formula-tagline {
     font-size: 0.85rem;
@@ -203,16 +164,9 @@
     font-size: clamp(7rem, 15vw, 5.5rem);
   }
 
-  .skills-grid {
-    grid-template-columns: repeat(auto-fit, minmax(1200px, 1fr));
-    grid-gap: 1rem;
-  }
 }
 /* ── Tablet 769–1024px ── */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .ghost-integral {
-    font-size: clamp(10rem, 18vw, 14rem);
-  }
 
   .formula-tagline {
     font-size: 0.85rem;
@@ -229,6 +183,6 @@
 }
 </style>
 
-<script setup lang="js">
+<script setup>
 import NavBar from "@/components/layout/NavBar.vue";
 </script>

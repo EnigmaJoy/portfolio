@@ -1,5 +1,6 @@
 <template>
-  <div class="d-flex v-col-6 top-navbar" :style="btnStyle" @click="scrollUp('main')">
+  <div class="d-flex v-col-6 top-navbar" :style="btnStyle" @click="scrollUp('main')"
+       aria-label="back to start">
     <v-icon icon="mdi-arrow-up" size="24" :color="color" />
   </div>
 </template>

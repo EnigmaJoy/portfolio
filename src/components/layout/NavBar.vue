@@ -108,7 +108,7 @@
 }
 </style>
 
-<script setup lang="js">
+<script setup>
 import { ref, onMounted, onBeforeUnmount } from "vue"
 import { useI18n } from "vue-i18n"
 

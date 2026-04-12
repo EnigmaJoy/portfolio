@@ -25,6 +25,9 @@
       },
       "qr_anniversary": {
         "description": "Un piccolo atto d'amore in codice: genera QR personalizzati da regalare in occasioni speciali. Perché la creatività più bella è quella che connette le persone."
+      },
+      "deskmate": {
+        "description": "Un compagno di scrivania costruito con React e TypeScript. Un'interfaccia pulita e minimale pensata per tenere in ordine la postazione — e la testa. Perché un buon strumento dovrebbe sembrare invisibile, ma essere sempre lì."
       }
     }
   },
