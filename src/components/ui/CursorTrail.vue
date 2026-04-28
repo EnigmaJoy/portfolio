@@ -145,7 +145,7 @@ function draw() {
     trail.push({ x: mouseX, y: mouseY, alpha: 1 })
     if (trail.length > maxTrail) trail.shift()
 
-    // spawn particles along the trail — more when moving fast
+    // spawn particles along the trail - more when moving fast
     const count = Math.min(Math.floor(speed * 0.8), 12)
     for (let j = 0; j < count; j++) {
       const spread = 40 + speed * 0.5
@@ -209,7 +209,7 @@ function draw() {
     }
   }
 
-  // draw particles — scattered glowing dust
+  // draw particles - scattered glowing dust
   for (let i = particles.length - 1; i >= 0; i--) {
     const p = particles[i]
     p.life -= p.decay

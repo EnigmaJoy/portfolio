@@ -288,7 +288,7 @@ onBeforeUnmount(() => {
   opacity: 0.85;
 }
 
-/* Mobile ≤ 600px — vertical carousel */
+/* Mobile ≤ 600px - vertical carousel */
 @media (max-width: 600px) {
   .carousel.vertical {
     height: 360px;
@@ -305,7 +305,7 @@ onBeforeUnmount(() => {
   }
 }
 
-/* Tablet 601–768px — horizontal, diapositive alte */
+/* Tablet 601–768px - horizontal, diapositive alte */
 @media (min-width: 601px) and (max-width: 768px) {
   .slide {
     width: clamp(200px, 28vw, 280px);

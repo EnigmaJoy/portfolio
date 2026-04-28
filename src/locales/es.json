@@ -4,30 +4,33 @@
   "it": "it",
   "chs": "chs",
   "welcome": {
-    "tagline": "Exploro, construyo y conecto — cada proyecto nace de una curiosidad genuina.",
+    "tagline": "Exploro, construyo y conecto - cada proyecto nace de una curiosidad genuina.",
     "skills_title": "Tecnologías"
   },
   "about": {
     "card_title": "Desarrolladora Frontend",
-    "description": "Una Frontend Dev con alma de exploradora: viajo, observo, hago preguntas y lo transformo todo en interfaces limpias y humanas. Me gusta entender qué enciende a las personas — y construir experiencias a su alrededor. Trabajo en la intersección de la estética, la lógica y la humanidad. Mi curiosidad siempre empieza por las personas: me encanta observarlas en contextos sociales, aprender cosas curiosas o profundizar en temas complejos. La fotografía urbana es una de las formas en que mejor lo hago — congelar un momento, una sombra, una persona que no sabe que la están mirando. Soy la que hace preguntas (con tacto) porque quiero entender de verdad qué mueve a alguien, qué le entusiasma, qué le hace quedarse. Y cuando lo entiendo, me sale natural transformarlo en decisiones de experiencia: un flujo más simple, un microcopy más humano, un detalle que hace sonreír."
+    "description": "Una Frontend Dev con alma de exploradora: viajo, observo, hago preguntas y lo transformo todo en interfaces limpias y humanas. Me gusta entender qué enciende a las personas - y construir experiencias a su alrededor. Trabajo en la intersección de la estética, la lógica y la humanidad. Mi curiosidad siempre empieza por las personas: me encanta observarlas en contextos sociales, aprender cosas curiosas o profundizar en temas complejos. La fotografía urbana es una de las formas en que mejor lo hago - congelar un momento, una sombra, una persona que no sabe que la están mirando. Soy la que hace preguntas (con tacto) porque quiero entender de verdad qué mueve a alguien, qué le entusiasma, qué le hace quedarse. Y cuando lo entiendo, me sale natural transformarlo en decisiones de experiencia: un flujo más simple, un microcopy más humano, un detalle que hace sonreír."
   },
   "projects": {
     "view_code": "Código",
     "items": {
       "easy_go": {
-        "description": "Un wizard multi-paso para recoger preferencias de viaje. Cada paso tiene un dinosaurio animado que camina y salta obstáculos — porque planificar un viaje debería ser tan divertido como el viaje mismo."
+        "description": "Un wizard multi-paso para recoger preferencias de viaje. Cada paso tiene un dinosaurio animado que camina y salta obstáculos - porque planificar un viaje debería ser tan divertido como el viaje mismo."
       },
       "linoir": {
         "description": "Una aplicación Angular con arquitectura PWA y despliegue containerizado con Docker. Un proyecto que me empujó más allá de la UI, hacia la infraestructura y el mundo DevOps."
       },
       "countdown_pet": {
-        "description": "Una mascota virtual interactiva que vive junto a tu temporizador. Acaríciala, aliméntala, mírala reaccionar — porque incluso el tiempo que importa merece un poco de compañía."
+        "description": "Una mascota virtual interactiva que vive junto a tu temporizador. Acaríciala, aliméntala, mírala reaccionar - porque incluso el tiempo que importa merece un poco de compañía."
       },
       "qr_anniversary": {
         "description": "Un pequeño acto de amor en código: genera QR personalizados para regalar en ocasiones especiales. Porque la creatividad más bella es la que conecta a las personas."
       },
       "deskmate": {
-        "description": "Un compañero de escritorio construido con React y TypeScript. Una interfaz limpia y minimalista diseñada para mantener el espacio de trabajo — y la mente — en orden. Porque una buena herramienta debería sentirse invisible, pero siempre presente."
+        "description": "Un compañero de escritorio construido con React y TypeScript. Una interfaz limpia y minimalista diseñada para mantener el espacio de trabajo - y la mente - en orden. Porque una buena herramienta debería sentirse invisible, pero siempre presente."
+      },
+      "mnemora_prototype": {
+        "description": "Prototipo destinado a recopilar recuerdos y crear una historia que el usuario pueda utilizar para seguir la evolución de su identidad."
       }
     }
   },
