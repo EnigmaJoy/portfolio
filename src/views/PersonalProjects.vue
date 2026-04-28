@@ -24,6 +24,12 @@ const projects = [
   //   github: 'https://github.com/EnigmaJoy/qr_anniversary',
   //   tech: ['HTML', 'CSS'],
   // },
+   {
+     key: 'mnemora_prototype',
+     title: 'Mnemo',
+     github: 'https://github.com/EnigmaJoy/Mnemo-prototype',
+     tech: ['NextJs', 'React', 'Tailwind CSS', 'PWA'],
+   },
   {
     key: 'deskmate',
     title: 'Deskmate',
@@ -127,6 +133,7 @@ const projects = [
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+  height: 50px;
 }
 
 .tech-chip {
@@ -137,6 +144,7 @@ const projects = [
   border: 1px solid rgba(160, 45, 75, 0.3);
   color: #e08a9e;
   letter-spacing: 0.04em;
+  height: 25px  ;
 }
 
 .project-footer {

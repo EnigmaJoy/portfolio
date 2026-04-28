@@ -8,8 +8,8 @@ const form = ref({
 })
 
 const sendEmail = () => {
-  const subject = encodeURIComponent(`Portfolio — ${form.value.name}`)
-  const body = encodeURIComponent(`${form.value.message}\n\n— ${form.value.name} (${form.value.email})`)
+  const subject = encodeURIComponent(`Portfolio - ${form.value.name}`)
+  const body = encodeURIComponent(`${form.value.message}\n\n- ${form.value.name} (${form.value.email})`)
   window.open(`mailto:j.grace.g.lopez@gmail.com?subject=${subject}&body=${body}`, '_blank')
 }
 </script>

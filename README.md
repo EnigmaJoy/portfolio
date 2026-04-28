@@ -1,4 +1,4 @@
-# Portfolio — Joselyn Grace Gordillo Lopez
+# Portfolio - Joselyn Grace Gordillo Lopez
 
 Personal portfolio website built with Vue 3, Vuetify 3, and vue-i18n.
 Live at: **[enigmajoy.github.io/portfolio](https://enigmajoy.github.io/portfolio)** *(coming soon)*
@@ -7,10 +7,10 @@ Live at: **[enigmajoy.github.io/portfolio](https://enigmajoy.github.io/portfolio
 
 ## Stack
 
-- **Vue 3** — Composition API + `<script setup>`
-- **Vuetify 3** — UI components
-- **vue-i18n** — Multilingual support (IT · EN · ES · ZH)
-- **Vue CLI** — Build tooling
+- **Vue 3** - Composition API + `<script setup>`
+- **Vuetify 3** - UI components
+- **vue-i18n** - Multilingual support (IT · EN · ES · ZH)
+- **Vue CLI** - Build tooling
 
 ## Features
 

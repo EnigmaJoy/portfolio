@@ -93,7 +93,7 @@
   letter-spacing: 0.04em;
 }
 
-/* ── Tablet 481–768px — 4 colonne ── */
+/* ── Tablet 481–768px - 4 colonne ── */
 @media (min-width: 481px) and (max-width: 768px) {
   .skills-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -115,7 +115,7 @@
   }
 }
 
-/* ── Mobile ≤ 480px — 2 colonne ── */
+/* ── Mobile ≤ 480px - 2 colonne ── */
 @media (max-width: 480px) {
   .tagline {
     font-size: 0.9rem;
